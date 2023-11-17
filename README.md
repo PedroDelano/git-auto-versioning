@@ -24,7 +24,7 @@ crontab -e
 Then, add the following line:
 
 ```bash
-0 * * * * obsidian-auto-versioning /path/to/your/obsidian/vault
+0 * * * * /path/to/obsidian-auto-versioning.sh /path/to/your/obsidian/vault
 ```
 
 This will run the script every hour.
