@@ -22,7 +22,7 @@ function git_update {
         echo "Changes detected: Committing and pushing..."
         git add .
         git commit -m "$(date)"
-        git push
+        git push origin master
     fi
 }
 
