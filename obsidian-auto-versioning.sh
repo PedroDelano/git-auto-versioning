@@ -25,3 +25,5 @@ function git_update {
         git push
     fi
 }
+
+git_update $1
